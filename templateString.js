@@ -6,3 +6,4 @@ let lastName = "Shuvo";
 
 let fullName = `${firstName} ${lastName}`;
 console.log(fullName);
+
