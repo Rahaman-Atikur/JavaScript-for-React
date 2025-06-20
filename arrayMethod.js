@@ -13,7 +13,7 @@ const showFruits = (fruits) => {
 };
 fruitsList.forEach(showFruits);
 // Filter Method
-let ageOfPerson = [22, 18, 19, 45,12];
+let ageOfPerson = [2, 18, 19, 45,12];
 let checkAdult = (age) => {
   return age >= 18;
 };
@@ -21,4 +21,7 @@ let adult=ageOfPerson.filter(checkAdult);
 console.log(adult);
 
 // Find Method
+
+let manOverTwenty = ageOfPerson.find(checkAdult);
+console.log(manOverTwenty);
 
